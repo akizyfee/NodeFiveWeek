@@ -1,12 +1,12 @@
 {
 	"info": {
 		"_postman_id": "cf3b10e3-500c-4550-9e66-50cb10593329",
-		"name": "express fourWeek",
+		"name": "expressFiveWeek",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "express get",
+			"name": "express middleware get",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -23,10 +23,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://morning-citadel-73775.herokuapp.com/posts",
+					"raw": "https://pure-sierra-14793.herokuapp.com/posts",
 					"protocol": "https",
 					"host": [
-						"morning-citadel-73775",
+						"pure-sierra-14793",
 						"herokuapp",
 						"com"
 					],
@@ -38,13 +38,13 @@
 			"response": []
 		},
 		{
-			"name": "express post",
+			"name": "express middleware post",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"user\":\"6277a6907b79d6126d575d6b\",\r\n    \"content\":\"不要上班\",\r\n    \"image\": \"https://stocksnap.io/photo/minimal-cactus-KSC88QWZBR\"\r\n}",
+					"raw": "{\r\n    \"user\":\"6277a6907b79d6126d575d6b\",\r\n    \"content\":\"不要上班2233\",\r\n    \"image\": \"https://stocksnap.io/photo/minimal-cactus-KSC88QWZBR\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -52,10 +52,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://morning-citadel-73775.herokuapp.com/posts",
+					"raw": "https://pure-sierra-14793.herokuapp.com/posts",
 					"protocol": "https",
 					"host": [
-						"morning-citadel-73775",
+						"pure-sierra-14793",
 						"herokuapp",
 						"com"
 					],
@@ -67,13 +67,13 @@
 			"response": []
 		},
 		{
-			"name": "express patch",
+			"name": "express middleware patch",
 			"request": {
 				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\":\"今天下班\",\r\n    \"content\":\"不睡覺\"\r\n}",
+					"raw": "{\r\n    \"name\":\"今天下班\",\r\n    \"content\":\"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -81,23 +81,23 @@
 					}
 				},
 				"url": {
-					"raw": "https://morning-citadel-73775.herokuapp.com/posts/62711a7a41f5bcab16a2ec7f",
+					"raw": "https://pure-sierra-14793.herokuapp.com/posts/6280fa79c50939931ab60cba",
 					"protocol": "https",
 					"host": [
-						"morning-citadel-73775",
+						"pure-sierra-14793",
 						"herokuapp",
 						"com"
 					],
 					"path": [
 						"posts",
-						"62711a7a41f5bcab16a2ec7f"
+						"6280fa79c50939931ab60cba"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "express deleteAll",
+			"name": "express middleware deleteAll",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -111,13 +111,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://morning-citadel-73775.herokuapp.com/posts",
-					"protocol": "https",
+					"raw": "http://localhost:3000/posts",
+					"protocol": "http",
 					"host": [
-						"morning-citadel-73775",
-						"herokuapp",
-						"com"
+						"localhost"
 					],
+					"port": "3000",
 					"path": [
 						"posts"
 					]
@@ -126,7 +125,7 @@
 			"response": []
 		},
 		{
-			"name": "express delete",
+			"name": "express middleware  delete",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -140,15 +139,16 @@
 					}
 				},
 				"url": {
-					"raw": "https://morning-citadel-73775.herokuapp.com/posts",
-					"protocol": "https",
+					"raw": "http://localhost:3000/posts/deletone/6280f62e8b924b08fea46c2f",
+					"protocol": "http",
 					"host": [
-						"morning-citadel-73775",
-						"herokuapp",
-						"com"
+						"localhost"
 					],
+					"port": "3000",
 					"path": [
-						"posts"
+						"posts",
+						"deletone",
+						"6280f62e8b924b08fea46c2f"
 					]
 				}
 			},
