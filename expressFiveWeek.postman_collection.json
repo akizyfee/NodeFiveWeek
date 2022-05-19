@@ -111,7 +111,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/posts",
+					"raw": "https://pure-sierra-14793.herokuapp.com/posts",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -139,7 +139,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/posts/deletone/6280f62e8b924b08fea46c2f",
+					"raw": "https://pure-sierra-14793.herokuapp.com/posts/deletone/6280f62e8b924b08fea46c2f",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -160,7 +160,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://morning-citadel-73775.herokuapp.com/users",
+					"raw": "https://pure-sierra-14793.herokuapp.com/users",
 					"protocol": "https",
 					"host": [
 						"morning-citadel-73775",
